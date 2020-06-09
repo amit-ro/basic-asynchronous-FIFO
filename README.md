@@ -17,4 +17,6 @@ In this example I used the following setting:
 * data burst length is 20
 * synchronization delay is 3 cycles
 
+The FIFO is design was given in advanecd logic design class and was needed to be programmed correctly as a final project.
+
 
