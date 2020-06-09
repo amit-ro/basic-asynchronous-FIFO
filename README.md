@@ -6,6 +6,8 @@ The FIFO consists of internal memory that can be written by one clock domain and
 In this design I will use the same uncertainty model that was written by one of my university teachers Mr. Rafael Gantz, also I will use some modules that I used in the bus synchronization repository namely the gray code synchronizer.
 
 The depth of the FIFO memory can be calculated like this:
+
 FIFO depth=data burst length-(time requried for writing-FIFO synchronization delay)/(receiving clock)+2
+
 In this design there are 2 addresses that are unreachable
 
