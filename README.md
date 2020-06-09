@@ -12,12 +12,9 @@ FIFO depth=data burst length-(time requried for writing-FIFO synchronization del
 In this design there are 2 addresses that are unreachable
 
 In this example i used the following setting:
-*clk_a is 80 MHz
-
-*clk_b is 50 MHz
-
-*data burst length is 20
-
-*synchronization delay is 3 cycles
+* clk_a is 80 MHz
+* clk_b is 50 MHz
+* data burst length is 20
+* synchronization delay is 3 cycles
 
 
