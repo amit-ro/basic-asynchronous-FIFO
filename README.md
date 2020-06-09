@@ -9,9 +9,9 @@ The depth of the FIFO memory can be calculated like this:
 
 FIFO depth=data burst length-(time requried for writing-FIFO synchronization delay)/(receiving clock)+2
 
-In this design there are 2 addresses that are unreachable
+In this design there are 2 addresses that are unreachable.
 
-In this example i used the following setting:
+In this example I used the following setting:
 * clk_a is 80 MHz
 * clk_b is 50 MHz
 * data burst length is 20
